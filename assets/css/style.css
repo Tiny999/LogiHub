@@ -23,19 +23,21 @@ body {
   }
 
 .link { color:#04C494; text-decoration: none;}
-.tag {font-weight: bold;}
-#header {color: #04C494; margin-left: 10vh; padding-top: 20px ; font-family: Rubik medium; font-size: 28px;}
+.tag {font-weight: 500;}
+#header {color: #04C494; margin-left: 5vh; padding-top: 10px ;  font-size: 28px;}
 .container-fluid{margin-top: 15vh;font-family: Rubik, Medium; padding: 20px 20px; }
 .checkbox {text-align: center;}
-.form-header {font-family: Rubik, medium; font-size: 44px; font-weight: bold;}
+.form-header {font-size: 35px; font-weight: 500; }
 #footer {text-align: center; color: #A0A0A2}
-#New-user { text-align: center; color: #A0A0A2}
+#New-user { text-align: center; color: #A0A0A2; }
 .show{
     float: right;
     text-decoration: none;
     color:#04C494 ;
 }
-.checkbox {font-weight: bold;}
+.checkbox {font-weight: 400;}
+#pass {}
+a:hover{color:#04C494 ; }
 
 .svg{
     width: 471px;
