@@ -1,66 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --lightest-grey-background: #F8F9FB;
+    --black: #0E101A;
+    --grey: #9FA6BF;
+    --background-error: #FDEFEE;
+    --error: #F66D83;
+    --for-links: #4C7AF1;
+    --primary-color: #04C494;
+}
+
 *{
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
-    
-
-}
-.svg{
-    width: 471px;
-    height: 440px;
-    opacity: 1;
-}
-h1{
-    top: 342px;
-left: 1045px;
-width: 398px;
-height: 52px;
-text-align: left;
-font: normal normal bold 44px/48px Rubik;
-letter-spacing: 0px;
-color: #212121;
-opacity: 1;
-}
-p{
-    top: 402px;
-left: 1045px;
-width: 482px;
-height: 24px;
-text-align: left;
-font: normal normal 300 20px/28px Rubik;
-letter-spacing: 0px;
-color: #424242;
-opacity: 1;
-}
-.mail{
-    width: 650px;
-    height: 56px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #A0A6BD;
-    border-radius: 4px;
-    opacity: 1;
-    margin-top: 0.5em;
-}
-.butn{
-    width: 650px;
-    height: 56px;
-    background: var(--primary-color) 0% 0% no-repeat padding-box;
-    background: #04C494 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
-    color: white;
-    margin-top: 4rem;
-}
-.logo{
-    width: 123px;
-    height: 33px;
-    color: var(--primary-color);
-    text-align: left;
-    font: bold 18px/23px Rubik;
-    letter-spacing: 0px;
-    color: #04C494;
-    text-decoration: none;
 }
 
+body{
+    font-family: 'Rubik', sans-serif;
+}
 
+#signup > .row{
+    margin: 0 !important;
+}
+
+#break-bank{
+    background: #F3CF82;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#break-bank > h4{
+    color: #574727;
+}
