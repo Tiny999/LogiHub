@@ -25,18 +25,18 @@ body {
 .link { color:#04C494; text-decoration: none;}
 .tag {font-weight: 500;}
 #header {color: #04C494; margin-left: 5vh; padding-top: 10px ;  font-size: 28px;}
-.container-fluid{margin-top: 15vh;font-family: Rubik, Medium; padding: 20px 20px; }
+.container-fluid{margin-top: 15vh;margin-bottom: 15vh; padding: 15px 15px; }
 .checkbox {text-align: center;}
-.form-header {font-size: 35px; font-weight: 500; }
+.form-header {font-size: 37px; font-weight: 500; }
 #footer {text-align: center; color: #A0A0A2}
-#New-user { text-align: center; color: #A0A0A2; }
+#New-user { text-align: center; color: #A0A0A2;}
 .show{
     float: right;
     text-decoration: none;
     color:#04C494 ;
 }
 .checkbox {font-weight: 400;}
-#pass {}
+#pass { line-height: 3;}
 a:hover{color:#04C494 ; }
 
 .svg{
