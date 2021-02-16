@@ -2,7 +2,6 @@
  *{
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
     margin-top: 1rem;
     
@@ -58,30 +57,26 @@ a:hover{color:#04C494 ; }
     width: 371px;
     height: 340px;
 }
-h1{
-    color: #212121;
-}
-p{
-    color: #424242;
-}
+
 .mail{
     width: 650px;
     height: 56px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border: 1px solid #A0A6BD;
     border-radius: 4px;
-    opacity: 1;
     margin-top: 0.2em;
     outline: none;
     padding: 1rem;
 }
-.butn{
+.btn-success{
     width: 650px;
     height: 50px;
-    border-radius: 4px;
     background-color: #04C494;
     color: white;
     margin-top: 3rem;
+}
+.btn-success:hover{
+    background-color:#04C494 ;
 }
 .logo{
     color: #04C494;
@@ -210,6 +205,7 @@ button {
 }
 .fp{
     margin-top: 4rem; 
+    color: #212121;
 }
 .rp{
     font:20px/24px;
