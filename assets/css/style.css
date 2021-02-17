@@ -2,14 +2,17 @@
  *{
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
+    margin-top: 1rem;
+    
     
 
 }
-body {
-    font-family: Rubik;
-} 
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+
 .block {
     display: block;
     width: 100%;
@@ -23,77 +26,65 @@ body {
   }
 
 .link { color:#04C494; text-decoration: none;}
+
 .tag {font-weight: 500;}
+
 #header {color: #04C494; margin-left: 5vh; padding-top: 10px ;  font-size: 28px;}
+
 .container-fluid{margin-top: 15vh;margin-bottom: 15vh; padding: 15px 15px; }
+
 .checkbox {text-align: center;}
+
 .form-header {font-size: 37px; font-weight: 500; }
+
 #footer {text-align: center; color: #A0A0A2}
+
 #New-user { text-align: center; color: #A0A0A2;}
+
 .show{
     float: right;
     text-decoration: none;
     color:#04C494 ;
 }
+
 .checkbox {font-weight: 400;}
+
 #pass { line-height: 3;}
+
 a:hover{color:#04C494 ; }
 
 .svg{
-    width: 471px;
-    height: 440px;
-    opacity: 1;
+    width: 371px;
+    height: 340px;
 }
-h1{
-    top: 342px;
-left: 1045px;
-width: 398px;
-height: 52px;
-text-align: left;
-font: normal normal bold 44px/48px Rubik;
-letter-spacing: 0px;
-color: #212121;
-opacity: 1;
-}
-p{
-    top: 402px;
-left: 1045px;
-width: 482px;
-height: 24px;
-text-align: left;
-font: normal normal 300 20px/28px Rubik;
-letter-spacing: 0px;
-color: #424242;
-opacity: 1;
-}
+
 .mail{
     width: 650px;
     height: 56px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border: 1px solid #A0A6BD;
     border-radius: 4px;
-    opacity: 1;
-    margin-top: 0.5em;
+    margin-top: 0.2em;
+    outline: none;
+    padding: 1rem;
 }
-.butn{
+.btn-success{
     width: 650px;
-    height: 56px;
-    background: var(--primary-color) 0% 0% no-repeat padding-box;
-    background: #04C494 0% 0% no-repeat padding-box;
-    border-radius: 4px;
-    opacity: 1;
+    height: 50px;
+    background-color: #04C494;
     color: white;
-    margin-top: 4rem;
+    margin-top: 3rem;
+}
+.btn-success:hover{
+    background-color:#04C494 ;
 }
 .logo{
-    width: 123px;
-    height: 33px;
-    color: var(--primary-color);
-    text-align: left;
-    font: bold 18px/23px Rubik;
-    letter-spacing: 0px;
     color: #04C494;
     text-decoration: none;
+    padding: 2.5rem;
+}
+#content{
+    margin-top: 7rem;  
 }
 
 
@@ -211,4 +202,22 @@ button {
 #support span {
     color: #04C494;
     font-family: Rubik medium;
+}
+.fp{
+    margin-top: 4rem; 
+    color: #212121;
+}
+.rp{
+    font:20px/24px;
+    color: #A0A0A2;
+    margin-left: 12rem;
+}
+.lgi{
+    color: #04C494;
+    text-decoration: none;
+}
+.ht{
+   margin-top: 7rem; 
+   text-align: center; 
+   color: gray;
 }
