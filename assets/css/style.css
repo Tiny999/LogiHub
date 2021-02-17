@@ -54,6 +54,14 @@ a:hover{
     opacity: .7;
 }
 
+.form-control{
+    border: 1px solid #A0A6BD;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
 
 /* Signup Pages */
 
@@ -106,38 +114,34 @@ a:hover{
     max-width: 430px;
 }
 
-#signup-form .form-control{
-    border: 1px solid #A0A6BD;
-}
-
-#signup-form .form-control:focus{
-    box-shadow: none;
-}
-
-#signup-form .form-control::placeholder{
+#signup-form .form-control::placeholder,
+#login-section .form-control::placeholder{
     color: #9FA6BF;
-    font-weight: normal;
+    font-weight: normal !important;
 }
 
-#signup-form .form-control:not(:placeholder-shown){
+#signup-form .form-control:not(:placeholder-shown),
+#login-section .form-control:not(:placeholder-shown){
     background-color: #F8F9FB !important;
 }
 
-#signup-form .form-control:placeholder-shown{
+#signup-form .form-control:placeholder-shown,
+#login-section .form-control:placeholder-shown{
     background-color: #fff !important;
 }
 
-#signup-form .form-group > label{
+#signup-form .form-group > label,
+#login-section .form-group > label{
     font-size: 15px;
     font-weight: 400;
 }
 
 #showPassword{
-    font-size: 14px;
+    font-size: inherit;
     font-weight: 400;
     position: absolute;
     right: 0;
-    top: 5px;
+    top: 3px;
     display: flex;
     align-items: center;
 }
@@ -193,4 +197,33 @@ a:hover{
 
 #break-bank > img{
     width: 75%;
+}
+
+/* Login Pages */
+#login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#login-header > h3{
+   font-size: 20px;
+   color: var(--primary-color); 
+}
+
+#login-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-section > form {
+    width: 450px;
+}
+
+#login-section > form a{
+    font-weight: 400;
 }
