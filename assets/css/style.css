@@ -4,6 +4,7 @@
     --lightest-grey-background: #F8F9FB;
     --black: #0E101A;
     --grey: #9FA6BF;
+    --dark-grey: #424242;
     --text-grey: #A0A0A2;
     --text-blue: #303758;
     --background-error: #FDEFEE;
@@ -132,10 +133,13 @@ a:hover{
 }
 
 #showPassword{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     position: absolute;
     right: 0;
+    top: 5px;
+    display: flex;
+    align-items: center;
 }
 
 #showPassword span{
@@ -145,6 +149,33 @@ a:hover{
 
 #signup-form .form-check > label{
     font-size: 14px;
+}
+
+/* Email Verification */
+#email-verify > h3{
+    font-weight: 700;
+    color: var(--dark-grey);
+}
+
+#email-verify > p{
+    color: #707070;
+}
+
+#email-verify > p strong{
+    color: var(--black);
+}
+
+#email-verify-info > strong{
+    color: var(--dark-grey);
+}
+
+#email-verify-info p{
+    color: var(--dark-grey);
+    font-weight: 100;
+}
+
+#email-verify a{
+    font-weight: 400;
 }
 
 #break-bank{
