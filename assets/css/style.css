@@ -227,3 +227,18 @@ a:hover{
 #login-section > form a{
     font-weight: 400;
 }
+
+#login-section .form-check{
+    font-size: 15px;
+    color: var(--dark-grey);
+}
+
+#loginForm p{
+    color: #A0A0A2;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#loginForm p a{
+    font-weight: 500;
+}
