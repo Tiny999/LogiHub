@@ -16,12 +16,130 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body>
+<body class="fixed-sn">
+    <!--Double navigation-->
+    <header class="dash-header">
+        <!-- Sidebar navigation -->
+        <div id="slide-out" class="side-nav fixed p-3">
+            <ul class="custom-scrollbar">
+                <!-- Logo -->
+                <li class="logo px-2">
+                    <a href="#">LOGIHUB</a>
+                </li>
+                <!-- Avatar -->
+                <li class="my-4">
+                    <div id="user-info">
+                        <div class="avatar m-2 d-flex align-items-center justify-content-center"><h1 class="my-auto">JD</h1></div>
+                        <p class="mb-0">James Doe</p>
+                        <p class="mb-0">ID:UY678</p>
+                        <a href="settings.html" class="btn btn-outline-white btn-sm waves-effect px-2 mt-1">Update Profile</a>
+                    </div>
+                </li>
+                <!--/. Avatar -->
+                <!-- Side navigation links -->
+                <li>
+                <ul class="side-links">
+                    <li class="side-link active mb-1">
+                        <a class="collapsible-header waves-effect text-white" href="#"> <img class="mr-1" src="assets/img/Icons/home-icon.svg" alt="Home"> Dashboard</a>
+                    </li>
+                    <li class="side-link mb-1">
+                        <a class="collapsible-header waves-effect text-white" href="#"> <img src="assets/img/Icons/rider.svg" alt="Rider" class="mr-1"> Rider Management</a>
+                    </li>
+                    <li class="side-link mb-1">
+                        <a class="collapsible-header waves-effect text-white" href="#"> <img src="assets/img/Icons/users.svg" alt="Users" class="mr-1"> Users</a>
+                    </li>
+                    <li class="side-link mb-1">
+                        <a class="collapsible-header waves-effect text-white" href="#"><img src="assets/img/Icons/orders.svg" alt="" class="mr-1"> Order Management</a>
+                    </li>
+                    <li class="side-link mb-1">
+                        <a class="collapsible-header waves-effect text-white" href="#"><img src="assets/img/Icons/reports.svg" alt="Reports" class="mr-1"> Reports</a>
+                    </li>
+                    <li class="side-link mb-1">
+                        <a class="collapsible-header waves-effect text-white" href="#"><img src="assets/img/Icons/settings.svg" alt="Settings" class="mr-1"> Settings</a>
+                    </li>
+                    
+                </ul>
+                </li>
+                <li class="mt-auto mb-0">
+                  <ul>
+                    <li class="side-link">
+                      <a href="#" class="text-white"> <img src="assets/img/Icons/help.svg" alt="Help" class="mr-1"> Help & Support</a>
+                    </li>
+                    <li class="side-link">
+                      <a href="#" class="text-white"> <img src="assets/img/Icons/logout.svg" alt="Logout" class="mr-1"> Log out</a>
+                    </li>
+                  </ul>
+                </li>
+                <!--/. Side navigation links -->
+                
+            </ul>
+        </div>
+        <!--/. Sidebar navigation -->
+        <!-- Navbar -->
+        <nav class="navbar navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav bg-white p-2">
+        <!-- SideNav slide-out button -->
+        <div class="float-left d-md-none">
+            <a href="#" data-activates="slide-out" class="button-collapse"><span class="material-icons">sort</span></a>
+        </div>
+        <!-- Breadcrumb-->
+        <div class="breadcrumb-dn mr-auto">
+            <p>Dashboard</p>
+        </div>
+        <ul class="nav navbar-nav nav-flex-icons ml-auto">
+            <li class="nav-item mr-3 mr-md-1">
+                <div class="d-flex align-items-center">
+                  <div class="notification-wrapper">
+                    <a href="#" id="notificationToggle"><img src="assets/img/Icons/bell.svg" alt="notifications"></a>
+                    
+                    <div class="notification-content">
+                        <div class="notification-header p-3">
+                            <p class="mb-0">Notifications</p>
+                        </div>
+                        <ul>
+                            <li class="notification p-3 mb-2">
+                                <div class="avatar d-flex align-items-center justify-content-center">
+                                    <p class="my-auto">AB</p>
+                                </div>
+                                <div class="activity-text ml-2 ml-md-3">
+                                    <h6 class="my-0"><a href="settings.html">You</a> Logged into your account</h6>
+                                    <p class="time mb-0 mt-1">10 mins ago</p>
+                                </div>
+                            </li>
+                            <li class="notification p-3 mb-2">
+                                <div class="avatar d-flex align-items-center justify-content-center">
+                                    <p class="my-auto">JB</p>
+                                </div>
+                                <div class="activity-text ml-2 ml-md-3">
+                                    <h6 class="my-0"><a href="settings.html">James Black</a> Reviewed your report</h6>
+                                    <p class="time mb-0 mt-1">10 mins ago</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    <div id="org-details" style="border-left: 1px solid #00000029;" class="pl-3 ml-3">
+                        <h6 class="m-0">Spring Field Logistics</h6>
+                        <p class="m-0">ID: LHC56787</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        </nav>
+        <!-- /.Navbar -->
+    </header>
+    <!--/.Double navigation-->
+    
+    <!--Main Layout-->
+    <main class="dash-main">
 
+    </main>
+    <!--Main Layout-->
 
 
     <!-- JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="assets/js/popper.min.js"></script>
     <!-- BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <!-- MDB -->

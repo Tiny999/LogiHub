@@ -1,0 +1,20 @@
+:root{
+    --lightest-grey-background: #F8F9FB;
+    --black: #0E101A;
+    --grey: #9FA6BF;
+    --dark-grey: #424242;
+    --text-grey: #A0A0A2;
+    --text-blue: #303758;
+    --background-error: #FDEFEE;
+    --error: #F66D83;
+    --for-links: #4C7AF1;
+    --primary-color: #04C494;
+}
+
+
+/* Dashboard sidebar padding */
+@media only screen and (max-width : 1100px) {
+    .dash-header, .dash-main, .dash-footer {
+        padding-left: 0;
+    }
+}
