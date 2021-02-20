@@ -82,12 +82,6 @@ a:hover{color:#04C494 ; }
     text-decoration: none;
 }
 
-<<<<<<< refs/remotes/origin/jamiu
-
-  
-
-=======
->>>>>>> local
 .welcome {
     background-color: #FFFFFF;
 }
@@ -103,6 +97,7 @@ a:hover{color:#04C494 ; }
     font-size: 20px;
 }
 #log-right {
+    float: right;
     color: #A0A0A2;
     font-family: Rubik light;
 }
@@ -112,37 +107,16 @@ a:hover{color:#04C494 ; }
 }
 .main {
     margin-top: 7em;
-
 }
-body {
-    font-family: Rubik;
-}
-.welcome {
-    background-color: #FFFFFF;
-}
-#logihub-head {
+#logihub-head-left  {
     float: left;
     color: #04C494;
     text-transform: uppercase;
     font-family: Rubik medium;
     font-size: 28px;
 }
-#log {
-    float: right;
-    font-size: 20px;
-}
-#log-right {
-    color: #A0A0A2;
-    font-family: Rubik light;
-}
-#log span {
-    color: #04C494;
-    font-family: Rubik medium;
-}
-.main {
-    margin-top: 7em;
 
-}
+
 .main h2 {
     font-family: Rubik medium;
     font-size: 44px;
