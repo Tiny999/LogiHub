@@ -31,7 +31,8 @@ body{
 
 #header {color: #04C494; margin-left: 5vh; padding-top: 10px ;  font-size: 28px;}
 
-.container-fluid{margin-top: 15vh;margin-bottom: 15vh; padding: 15px 15px; }
+.container-fluid {display: flex; flex-direction: column; justify-content: center;}
+/*{margin-top: 15vh;margin-bottom: 15vh; padding: 15px 15px; }*/
 
 .checkbox {text-align: center;}
 
