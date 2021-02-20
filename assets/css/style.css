@@ -53,18 +53,13 @@ body{
 
 a:hover{color:#04C494 ; }
 
-.svg{
-    width: 371px;
-    height: 340px;
-}
 
 .mail{
-    width: 650px;
-    height: 56px;
+    width: 550px;
+    height: 50px;
     background: #FFFFFF;
     border: 1px solid #A0A6BD;
     border-radius: 4px;
-    margin-top: 0.2em;
     outline: none;
     padding: 1rem;
 }
@@ -83,13 +78,16 @@ a:hover{color:#04C494 ; }
     text-decoration: none;
     padding: 2.5rem;
 }
-#content{
-    margin-top: 7rem;  
+.logo:hover{
+    text-decoration: none;
 }
 
+<<<<<<< refs/remotes/origin/jamiu
 
   
 
+=======
+>>>>>>> local
 .welcome {
     background-color: #FFFFFF;
 }
@@ -203,21 +201,53 @@ button {
     color: #04C494;
     font-family: Rubik medium;
 }
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
 .fp{
-    margin-top: 4rem; 
     color: #212121;
 }
 .rp{
-    font:20px/24px;
     color: #A0A0A2;
-    margin-left: 12rem;
+    text-align: center;
 }
 .lgi{
     color: #04C494;
     text-decoration: none;
 }
 .ht{
-   margin-top: 7rem; 
    text-align: center; 
    color: gray;
+   position: sticky;
+}
+.lgi:hover{
+        text-decoration: none;
+    }
+@media (max-width: 481px){
+    .mail{
+        width: 370px;
+        padding-right: 0.8rem;
+    }
+    .btn-success{
+        width: 370px;
+        padding-right: 1rem;
+    }
+    .amico{
+        padding-left: 3rem;
+    }
+    .rp{
+        text-align: center;  
+    }
+    .ht{
+        text-align: center;
+        padding-top: 5rem;
+    }
+    .amico{
+        display: none;
+    }
+    
 }
