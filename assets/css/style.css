@@ -58,12 +58,14 @@ h1, h2, h3, h4, h5, h6{
 .btn-outline-white{
     border: 1px solid white !important;
     text-transform: inherit !important;
+    transition: all .5s ease;
 }
 
 .btn-outline-white:hover{
     background: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
     color: white !important;
+    opacity: 1;
 }
 
 .form-control{
@@ -245,6 +247,11 @@ h1, h2, h3, h4, h5, h6{
     color: var(--dark-grey);
 }
 
+#loginForm > .form-group label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
 #loginForm p{
     color: #A0A0A2;
     font-weight: 100;
@@ -253,6 +260,10 @@ h1, h2, h3, h4, h5, h6{
 
 #loginForm p a{
     font-weight: 500;
+}
+
+#loginForm a#forgot-password{
+    font-size: 14px;
 }
 
 
