@@ -48,11 +48,18 @@ h1, h2, h3, h4, h5, h6{
 .btn-primary{
     background-color: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
+    text-transform: inherit;
+    font-weight: 500;
 }
 
 .btn-primary:hover{
     background-color: var(--primary-color);
     border-color: var(--primary-color);
+}
+
+.btn-primary:focus,
+.btn-primary:active{
+    background-color: var(--primary-color) !important;
 }
 
 .btn-outline-white{
@@ -105,7 +112,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #signup-header > p,
-#signup-footer > p{
+#signup-footer > p,
+#login-footer > p{
     font-size: 14px;
     font-weight: 100;
     color: var(--text-grey);
@@ -249,7 +257,7 @@ h1, h2, h3, h4, h5, h6{
 
 #loginForm > .form-group label{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 #loginForm p{
