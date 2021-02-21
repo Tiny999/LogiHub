@@ -53,6 +53,7 @@ body{
 
 a:hover{color:#04C494 ; }
 
+<<<<<<< HEAD
 .svg{
     width: 371px;
     height: 340px;
@@ -71,11 +72,16 @@ a:hover{color:#04C494 ; }
 .btn-success{
     width: 650px;
     height: 50px;
+=======
+.btn-primary{
+    width: 545px;
+    height: 45px;
+>>>>>>> a7a36134d2f02ab8db3910a42ecf5f847c876418
     background-color: #04C494;
     color: white;
     margin-top: 3rem;
 }
-.btn-success:hover{
+.btn-primary:hover{
     background-color:#04C494 ;
 }
 .logo{
@@ -203,21 +209,72 @@ button {
     color: #04C494;
     font-family: Rubik medium;
 }
+<<<<<<< HEAD
 .fp{
     margin-top: 4rem; 
     color: #212121;
 }
 .rp{
     font:20px/24px;
+=======
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.forgot-password{
+    color: #212121;
+}
+.remembered-password{
+>>>>>>> a7a36134d2f02ab8db3910a42ecf5f847c876418
     color: #A0A0A2;
     margin-left: 12rem;
 }
-.lgi{
+.login{
     color: #04C494;
     text-decoration: none;
 }
+<<<<<<< HEAD
 .ht{
    margin-top: 7rem; 
    text-align: center; 
    color: gray;
+=======
+.having-troubles{
+   text-align: center; 
+   color: gray;
+   position: sticky;
+}
+.login:hover{
+        text-decoration: none;
+}
+.amico{
+    width: 70%;
+}
+@media (max-width: 481px){
+    .mail{
+        width: 370px;
+        padding-right: 0.8rem;
+    }
+    .btn-success{
+        width: 370px;
+        padding-right: 1rem;
+    }
+    .amico{
+        padding-left: 3rem;
+    }
+    .remembered-password{
+        text-align: center;  
+    }
+    .having-troubles{
+        text-align: center;
+        padding-top: 5rem;
+    }
+    .amico{
+        display: none;
+    }
+    
+>>>>>>> a7a36134d2f02ab8db3910a42ecf5f847c876418
 }
