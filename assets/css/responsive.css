@@ -18,3 +18,9 @@
         padding-left: 0;
     }
 }
+
+@media (min-width: 768px){
+    #forgotPassword{
+        min-width: 450px;
+    }
+}

@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .form-control{
-    border: 1px solid #A0A6BD;
+    border: 1px solid #A0A6BD !important;
 }
 
 .form-control:focus{
@@ -137,18 +137,21 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #signup-form .form-control::placeholder,
-#login-section .form-control::placeholder{
+#login-section .form-control::placeholder,
+#forgotPassword-container .form-check::placeholder{
     color: #9FA6BF;
     font-weight: normal !important;
 }
 
 #signup-form .form-control:not(:placeholder-shown),
-#login-section .form-control:not(:placeholder-shown){
+#login-section .form-control:not(:placeholder-shown),
+#forgotPassword-container .form-control:not(:placeholder-shown){
     background-color: #F8F9FB !important;
 }
 
 #signup-form .form-control:placeholder-shown,
-#login-section .form-control:placeholder-shown{
+#login-section .form-control:placeholder-shown,
+#forgotPassword-container .form-control:not(:placeholder-shown){
     background-color: #fff !important;
 }
 
@@ -272,6 +275,38 @@ h1, h2, h3, h4, h5, h6{
 
 #loginForm a#forgot-password{
     font-size: 14px;
+}
+
+/* Forgot Password Pages */
+#forgotPassword-container{
+    flex: 1;
+}
+
+#forgotPassword-container > .row{
+    height: 100%;
+}
+
+#forgotPassword-img > img{
+    width: 60%;
+}
+
+#forgotPassword > h2{
+    color: #212121;
+    font-weight: 600;
+}
+
+#forgotPassword label{
+    font-weight: 500;
+}
+
+#forgotPassword > p{
+    color: var(--dark-grey);
+    font-size: 14px;
+}
+
+#forgotPassword #rememberedPass{
+    color: #A0A0A2;
+    font-size: 15px;
 }
 
 
