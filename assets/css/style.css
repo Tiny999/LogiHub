@@ -309,6 +309,36 @@ h1, h2, h3, h4, h5, h6{
     font-size: 15px;
 }
 
+/* Email Pass Pages */
+#emailPass{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#emailPass #passHeader > h2{
+    font-weight: 600;
+    color: var(--dark-grey);
+}
+
+#emailPass #passHeader > p{
+    font-weight: 500;
+    color: #707070;
+    font-size: 14px;
+}
+
+#emailPass #passBody p{
+    color: var(--dark-grey);
+    font-size: 15px;
+}
+
+#emailPass #passFoot > p{
+    font-size: 14px;
+}
+
 
 /* Dashboard Styles */
 .dash-header, .dash-main, .dash-footer {
