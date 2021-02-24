@@ -339,6 +339,15 @@ h1, h2, h3, h4, h5, h6{
     font-size: 14px;
 }
 
+/* Reset Successful */
+#reset-success h5{
+    color: var(--dark-grey);
+}
+
+#reset-success a{
+    font-weight: 400;
+}
+
 
 /* Dashboard Styles */
 .dash-header, .dash-main, .dash-footer {
