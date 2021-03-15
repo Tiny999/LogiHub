@@ -4,57 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <title>LogiHub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    </head>
 <body>
-    <h1 id="header">LOGIHUB</h1>
-    <div class= "container-fluid">
-        <div class= "row">
-            <div class= "offset-md-4 col-md-4">
+    <div class="container main-container">
+        <header class="header">
+            <a href="index.html">LOGIHUB</a>
+        </header>
+        <main>
+            <div class="container form-container">
                 <h2 class="form-header">Login to your account</h2>
                 
                 <form action="">
                     <div class="form-group">
-                        <label for= ""  class="tag">Email</label>
-                        <input type= "text" class= "form-control" placeholder="John@gmail.com">
+                        <label for= ""  class="tag email--label">Email</label>
+                        <input type= "text" class= "form-control one" placeholder="John@gmail.com">
                     </div>
                     
                     <div class="form-group">
-                        <label for= "" class="tag">Password</label> 
-                       <a class="show" href=""><img src="/assets/Stockholm-icons---General---Visible.svg"> Show</a>
+                            <label for= "" class="tag pass--label">Password
+                                <a class="show" href=""><img src="assets/img/Stockholm-icons---General---Visible.svg">Show</a>
+                            </label>
                         <input type= "password" class= "form-control" placeholder="At least 8 characters">
                     </div>
-                    
-
-                     
-                    <a href= ""  class= "link" id="pass">Forgot password?</a>
-                    <br>
-                    <br>
-                    <button type="submit" class="block">Log in</button>
-                    
-
+                    <a href= ""  class= "link pass">Forgot password?</a>
+                        <br>
+                        <br>
+                        <button type="submit" class="block">Log in</button>
                 </form>
-             
-				<div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Keep me logged in
-                    </label>
-                  </div>
-                    <br>
 
-                    <p id="New-user">New user? <a href= "" class= "link">Create account</a></p>
-                     <br>
-                     <br>
-                     <br>
+               
+                    <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> Keep me logged in
+                        </label>
+                    </div>
+                    <br>
+                    <br>
+    
+                    <div id="new-user">
+                        <p>New user? <a href="" class= "link" > Create Account</a></p>
+                    </div>
                     
+                <br>
+                <br>
+                <br>
+                <br>
+                         
+                </div>
             </div>
-        </div>
+        </main>
+        
     </div>
-    <footer id="footer">Having troubles? <a href="" class= "link">Contact support</a></footer>
-    
-    
+
+    <footer id="footer">
+        <p>Having troubles? <a href="" class= "link"> Contact support</a></p>
+    </footer>
 </body>
 </html>
