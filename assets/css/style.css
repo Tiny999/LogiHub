@@ -3,56 +3,152 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    margin-top: 1rem;
-    
-    
+    margin-top:rem;
+    }
 
-}
 body{
     font-family: 'Rubik', sans-serif;
 }
+
+.header {
+    color: #04C494;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#04C494 ;
+}
+
+.form-container {
+    margin: 0 auto;
+    margin-top: 49px;
+    padding: 20px;
+    height: 100vh;
+    max-width: 500px;
+
+    display:grid;
+    grid-template-columns: (12,1fr);
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+
+    height: 100%;
+}
+.form-header {
+    margin-bottom: 36px;
+    font-size: 40px;
+    font-weight: 450;   
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.form-group input {
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 20px;
+    border: 1px solid #A0A0A2;
+    border-radius: 4px;
+
+    outline: none;
+}
+.email--label {
+    margin-bottom: -0.5rem;
+}
+.one { margin-bottom: 15px;
+
+}
+
+.pass--label {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: -0.8rem;
+}
+
+.show {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.tag {
+    font-weight: 440;
+    color: #0E101A;
+}
+
+.pass {
+      line-height: 2.5;
+      padding-top: 0.5rem;
+  }
 
 
 .block {
     display: block;
     width: 100%;
     border: none;
+    border-radius: 4px;
+    outline: none;
     background-color: #04C494;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
-    color: white;
+    color: white; 
   }
 
-.link { color:#04C494; text-decoration: none;}
+  .checkbox {
+      padding-top: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-.tag {font-weight: 500;}
+      font-weight: 400;
+  }
+  #new-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-#header {color: #04C494; margin-left: 5vh; padding-top: 10px ;  font-size: 28px;}
+    color: #bfbfca;
+}
+  
+  footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-.container-fluid{margin-top: 15vh;margin-bottom: 15vh; padding: 15px 15px; }
+      color:  #A0A0A2;
+  }
 
-.checkbox {text-align: center;}
 
-.form-header {font-size: 37px; font-weight: 500; }
 
-#footer {text-align: center; color: #A0A0A2}
-
-#New-user { text-align: center; color: #A0A0A2;}
-
-.show{
-    float: right;
-    text-decoration: none;
-    color:#04C494 ;
+.svg{
+    width: 371px;
+    height: 340px;
 }
 
-.checkbox {font-weight: 400;}
-
-#pass { line-height: 3;}
-
-a:hover{color:#04C494 ; }
-
+.mail{
+    width: 650px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #A0A6BD;
+    border-radius: 4px;
+    margin-top: 0.2em;
+    outline: none;
+    padding: 1rem;
+}
+.btn-success{
+    width: 650px;
+    height: 50px;
+}
 .btn-primary{
     width: 545px;
     height: 45px;
@@ -68,9 +164,12 @@ a:hover{color:#04C494 ; }
     text-decoration: none;
     padding: 2.5rem;
 }
-.logo:hover{
-    text-decoration: none;
+#content{
+    margin-top: 7rem;  
 }
+
+
+  
 
 .welcome {
     background-color: #FFFFFF;
@@ -87,7 +186,6 @@ a:hover{color:#04C494 ; }
     font-size: 20px;
 }
 #log-right {
-    float: right;
     color: #A0A0A2;
     font-family: Rubik light;
 }
@@ -97,16 +195,37 @@ a:hover{color:#04C494 ; }
 }
 .main {
     margin-top: 7em;
+
 }
-#logihub-head-left  {
+body {
+    font-family: Rubik;
+}
+.welcome {
+    background-color: #FFFFFF;
+}
+#logihub-head {
     float: left;
     color: #04C494;
     text-transform: uppercase;
     font-family: Rubik medium;
     font-size: 28px;
 }
+#log {
+    float: right;
+    font-size: 20px;
+}
+#log-right {
+    color: #A0A0A2;
+    font-family: Rubik light;
+}
+#log span {
+    color: #04C494;
+    font-family: Rubik medium;
+}
+.main {
+    margin-top: 7em;
 
-
+}
 .main h2 {
     font-family: Rubik medium;
     font-size: 44px;
@@ -165,7 +284,14 @@ button {
     color: #04C494;
     font-family: Rubik medium;
 }
-#content{
+.fp{
+    margin-top: 4rem; 
+    color: #212121;
+}
+.rp{
+    font:20px/24px;
+}
+#content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +303,7 @@ button {
 }
 .remembered-password{
     color: #A0A0A2;
-    text-align: center;
+    margin-left: 12rem;
 }
 .login{
     color: #04C494;
